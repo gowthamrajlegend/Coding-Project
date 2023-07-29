@@ -10,5 +10,4 @@ def revision(revNo):
    return 'Revision Number %f' % revNo
 
 if __name__ == '__main__':
-   app.run(debug=True)
-   locally
+   app.run(debug=False)
