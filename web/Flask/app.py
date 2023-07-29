@@ -1,13 +1,13 @@
 from flask import Flask
-
-# Create an instance of the Flask class
 app = Flask(__name__)
 
-# Define a route and the associated function to handle the request
-@app.route('/')
-def hello_world():
-    return 'Hello, World!'
+@app.route('/blog/<int:postID>')
+def show_blog(postID):
+   return 'Blog Number %d' % postID
 
-# Run the Flask application
+@app.route('/rev/<float:revNo>')
+def revision(revNo):
+   return 'Revision Number %f' % revNo
+
 if __name__ == '__main__':
-    app.run(debug = True)
+   app.run(debug=True)
