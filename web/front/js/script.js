@@ -8,9 +8,11 @@ rules
 */
 
 //calling variable - var, let, const
-//var name = "raj";
-//const dob = "18/12/2003"
-//let msg = "hi i am " + name + " ok" +dob;
+/*
+var name = "raj";   //usimg var
+const dob = "18/12/2003" //using const
+let msg = "hi i am " + name + " ok" +dob; // using let
+*/
 
 //alert box
 //alert(msg)
@@ -20,14 +22,35 @@ rules
 
 //DATA TYPES
 //primitive Types
+/*
 let name = "ravi"; //string 
 let age = 18; //number
 let isyouth = true; //boolean
 let x; //undefined
 let y = null; //null
+*/
 
 //Non Primitive Types or Reference Types
+/*
 let a = {}; //object
 let b = []; //array
 let c = function () {}; //function
+*/
 
+//objects
+let person = { // must use =
+    name : "ravi", // must use ,
+    age : 21,
+    gender : "Male",
+    address : "Chennai,Tamilnadu,India",
+}
+
+//Two Types of Accessing the values from object
+//1 Dot Notation
+
+
+//2 Bracket Notation    
+
+
+
+console.log(person.name)
