@@ -1,3 +1,5 @@
+// BY Youtuber CyberDude Network
+
 //RULES
 /*
 rules 
@@ -43,14 +45,17 @@ let person = { // must use =
     age : 21,
     gender : "Male",
     address : "Chennai,Tamilnadu,India",
+    siblings : {
+        brother : "Raj",
+        sister : "Rani"
+    }
 }
 
-//Two Types of Accessing the values from object
+//Two Types of Accessing the values from object (12)
 //1 Dot Notation
 
 
 //2 Bracket Notation    
 
 
-
-console.log(person.name)
+console.log(person.siblings.brother)
